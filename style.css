@@ -86,3 +86,7 @@ input {
     color: white;
     font-weight: bold;
 }
+hr {
+    width: 100%;
+    border: 1px dashed #444856;
+}
