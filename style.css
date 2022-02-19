@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    color: #878996;
+}
+.bodyContainer {
+    background-color: #2e3137;
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.XtraText {
+    font-size: 25px;
+    font-weight: bold;
+}
+.FormText {
+    color: #23a3c5;
+    font-size: 25px;
+    font-weight: bold;
+}
+.signUp {
+    background-color: #444856;
+    text-align: center;
+    padding: 8px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.formContainer {
+    border-radius: 5px;
+    background-color: #22262b;
+    width: 70%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+input {
+    background-color: #444856;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    margin: 8px 0;
+}
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 15px;
+}
+.signButton {
+    background-color: #2e9ace;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+.buttonUpContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    
+}
+.accountText {
+    text-align: center;
+}
+.signInButton {
+    background-color: #444856;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}

@@ -5,8 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XtraForm</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <div class="bodyContainer">
+        <header>
+            <span class="XtraText">Xtra</span><span class="FormText">Form</span>
+            <p>Bootstrap 3 Xtra Form</p>
+        </header>
+        <form class="formContainer">
+            <p class="signUp">Sign up</p>
+            <div class="inputContainer">
+                <label>Username</label>
+                <input required name="userName" placeholder="Username"/>
+                <label>Email</label>
+                <input required type="email" name="email" placeholder="Email"/> 
+                <label>Password</label>
+                <input required type="password" name="password" placeholder="Password"/>
+                <label>Retype password</label>
+                <input required type="password" name="retypePassword" placeholder="Retype password"/>
+                <div>
+                    <input required type="checkbox" name="checkbox"/>
+                    <label>Accept the terms and policies</label>
+                </div>
+                    <div class="buttonUpContainer">
+                        <button class="signButton">Sign up</button>
+                    </div>
+                <p class="accountText">Already have an account?</p>
+                <button class="signInButton">Sign in</button>
+            </div>
+        </form>
+        <p>Built with <a href="">Boostrap 3</a> | Made by <a href="">Aydev</a></p>
+    </div>
 </body>
 </html>
